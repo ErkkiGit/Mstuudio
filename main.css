@@ -3,8 +3,40 @@ body {
     margin: 0;
 }
 
+/*Header container*/
 .header {
-    background: url("Mstuudio.jpg") left no-repeat, url("header_backround.jpg") left repeat;
+    background: url("pictures/Mstuudio.jpg") left no-repeat, url("pictures/header_backround.jpg") left repeat;
     text-align: right;
     padding: 50px;
+}
+
+.header p {
+    font-family: 'Impact';
+    color: #C30609;
+    font-size: 20px;
+    float: bottom;
+}
+
+/* The navbar container */
+.topnav {
+    overflow: hidden;
+    background: url("pictures/meny_backround.jpg");
+}
+
+/* Navbar links */
+.topnav a {
+    font-family: 'Impact';
+    float: left;
+    display: block;
+    color: #C30609;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background: url("pictures/header_backround.jpg");
+    color: black;
 }
