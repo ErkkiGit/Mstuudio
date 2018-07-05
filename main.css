@@ -1,0 +1,10 @@
+
+body {
+    margin: 0;
+}
+
+.header {
+    background: url("Mstuudio.jpg") left no-repeat, url("header_backround.jpg") left repeat;
+    text-align: right;
+    padding: 50px;
+}
