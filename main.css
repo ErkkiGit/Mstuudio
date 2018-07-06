@@ -1,6 +1,9 @@
 
-body {
+body, html{
+    height: 100%;
     margin: 0;
+    background: url("pictures/content_backround.jpg");
+    background-repeat: repeat;
 }
 
 /*Header container*/
@@ -39,4 +42,20 @@ body {
 .topnav a:hover {
     background: url("pictures/header_backround.jpg");
     color: black;
+}
+
+/* Content p */
+.content p {
+    font-family: 'Impact';
+    color: lack;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+/* Content h1 */
+.content h1 {
+    font-family: 'Impact';
+    color: black;
+    font-size: 20px;
+    margin-left: 30px;
 }
